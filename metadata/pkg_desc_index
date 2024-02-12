@@ -15,6 +15,9 @@ games-engines/mcarpet2 20240109: recode of Bullfrog's Magic Carpet 2 game
 media-gfx/thpp 20240107: Thermal Processing Panel - a viewer and analyzer of infrared images
 net-firewall/shorewall 5.2.8-r5: A high-level tool for configuring Netfilter
 net-misc/iotcpd 1.1: a stdio to tcp redirector daemon
+net-wireless/gr-sdrplay3 9999 20240207: GNU Radio OOT module for SDRplay RSP devices - SRDPlay API v3
+net-wireless/sdrplay 3.14.0: SDRplay API/HW driver for all RSPs
+net-wireless/soapy-sdrplay3 9999 20240205: Soapy SDR module for SRDPlay API v3
 sci-electronics/sigdup 20240107: sigdup - replay PulseView digital signals on the pins of a microcontroller
 sec-keys/openpgp-keys-petrerodan 20240109: OpenPGP keys used by Petre Rodan
 sys-apps/cwiticald 1.3 9999: EGD-compatible daemon for TrueRNG devices
