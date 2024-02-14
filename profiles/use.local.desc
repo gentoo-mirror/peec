@@ -4,6 +4,7 @@
 
 app-dicts/dicpoli:dict - dictionary data for dict
 app-dicts/dicpoli:stardict - dictionary data for stardict
+games-engines/fheroes2:tools - Install development tools like 82m2wav and xmi2midi.
 games-engines/mcarpet2:imgui - enable Dear ImGui interface inside game's framebuffer
 net-firewall/shorewall:init - Adds the capability to place the firewall in a safe state prior to bringing up the network interfaces
 net-firewall/shorewall:ipv4 - Installs everything needed to create a full IPv4 firewall
