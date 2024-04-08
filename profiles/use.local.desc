@@ -4,8 +4,19 @@
 
 app-dicts/dicpoli:dict - dictionary data for dict
 app-dicts/dicpoli:stardict - dictionary data for stardict
+dev-games/openscenegraph:collada - Enable DAE file support via dev-libs/collada-dom
+dev-games/openscenegraph:dicom - Enable DICOM medical image file support via sci-libs/dcmtk
+dev-games/openscenegraph:fox - Build examples using x11-libs/fox library
+dev-games/openscenegraph:gdal - Enable support for sci-libs/gdal library
+dev-games/openscenegraph:las - Enable support for geospatial data LAS LiDAR format using sci-geosciences/liblas
+dev-games/openscenegraph:openinventor - Build OpenInventor plugin
+dev-games/openscenegraph:osgapps - Build osg applications
+dev-games/openscenegraph:sdl2 - Use media-libs/libsdl2 additionally to media-libs/libsdl
+dev-games/openscenegraph:xrandr - Enable support for the X xrandr extension
 games-engines/fheroes2:tools - Install development tools like 82m2wav and xmi2midi.
 games-engines/mcarpet2:imgui - enable Dear ImGui interface inside game's framebuffer
+games-engines/openmw:devtools - Install development tools like bsatool, esmtool and opencs.
+games-engines/openmw:osg-fork - Use OpenSceneGraph forked by OpenMW instead of upstream OSG.
 net-firewall/shorewall:init - Adds the capability to place the firewall in a safe state prior to bringing up the network interfaces
 net-firewall/shorewall:ipv4 - Installs everything needed to create a full IPv4 firewall
 net-firewall/shorewall:ipv6 - Adds the capability to create a full IPv6 firewall (requires net-firewall/shorewall ipv4 USE flag)
