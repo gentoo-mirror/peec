@@ -10,5 +10,5 @@ RDEPEND=selinux? ( sys-apps/policycoreutils )
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/rodan/daemontools-scripts/archive/20210924.tar.gz -> daemontools-scripts-20210924.tar.gz
-_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	e503ea5acc20410237ba33ec3f7c857d
+_eclasses_=toolchain-funcs	e7e7331166166e7a516d19e264b098c2	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	e503ea5acc20410237ba33ec3f7c857d
 _md5_=e3a52cd8b61901f431d680d7fd7780d5
