@@ -13,7 +13,7 @@ dev-python/dtschema 2023.11: tools and schema data for Devicetree schema validat
 dev-python/jsonschema 4.17.3: An implementation of JSON-Schema validation for Python
 dev-python/pylibfdt 1.7.0_p1: a copy of libfdt from the upstream kernel dtc project
 games-engines/fheroes2 1.0.13: Recreation of HoMM2 game engine
-games-engines/mcarpet2 20240109: recode of Bullfrog's Magic Carpet 2 game
+games-engines/mcarpet2 20240109 20241004: recode of Bullfrog's Magic Carpet 2 game
 games-engines/openmw 0.48.0 9999: Open source reimplementation of TES III: Morrowind
 media-gfx/thpp 20240107: Thermal Processing Panel - a viewer and analyzer of infrared images
 net-firewall/shorewall 5.2.8-r5: A high-level tool for configuring Netfilter
