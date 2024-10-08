@@ -15,7 +15,7 @@ dev-python/pylibfdt 1.7.0_p1: a copy of libfdt from the upstream kernel dtc proj
 games-engines/fheroes2 1.0.13: Recreation of HoMM2 game engine
 games-engines/mcarpet2 20240109 20241006: recode of Bullfrog's Magic Carpet 2 game
 games-engines/openmw 0.48.0 9999: Open source reimplementation of TES III: Morrowind
-media-gfx/thpp 20240107: Thermal Processing Panel - a viewer and analyzer of infrared images
+media-gfx/thpp 20241008: Thermal Processing Panel - a viewer and analyzer of infrared images
 net-firewall/shorewall 5.2.8-r5: A high-level tool for configuring Netfilter
 net-misc/iotcpd 1.1: a stdio to tcp redirector daemon
 net-wireless/gr-sdrplay3 9999 20240207: GNU Radio OOT module for SDRplay RSP devices - SRDPlay API v3
