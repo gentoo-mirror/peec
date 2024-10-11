@@ -28,7 +28,7 @@ sys-apps/linux-misc-apps 6.6.15: Misc tools bundled with kernel sources
 sys-apps/opentmpfiles 0.2-r1: A standalone utility to process systemd-style tmpfiles.d files
 sys-firmware/ipw2200-firmware 3.0: Firmware for the Intel PRO/Wireless 2200BG/2915ABG miniPCI, 2225BG PCI adapters
 sys-fs/eudev 3.2.11-r4 3.2.12-r1 9999: Linux dynamic and persistent device naming support (aka userspace devfs)
-sys-process/daemontools-scripts 20210924: gentoo specific daemontools wrapper scripts
+sys-process/daemontools-scripts 20210924 20241011: gentoo specific daemontools wrapper scripts
 virtual/libudev 232: Virtual for libudev providers
 virtual/tmpfiles 0: Virtual to select between different tmpfiles.d handlers
 virtual/udev 217: Virtual to select between different udev daemon providers
