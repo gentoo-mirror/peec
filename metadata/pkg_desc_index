@@ -23,7 +23,7 @@ net-wireless/sdrplay 3.14.0: SDRplay API/HW driver for all RSPs
 net-wireless/soapy-sdrplay3 9999 20240205: Soapy SDR module for SRDPlay API v3
 sci-electronics/sigdup 20240107: sigdup - replay PulseView digital signals on the pins of a microcontroller
 sec-keys/openpgp-keys-petrerodan 20240109: OpenPGP keys used by Petre Rodan
-sys-apps/cwiticald 1.3 9999: EGD-compatible daemon for TrueRNG devices
+sys-apps/cwiticald 1.3 1.4 9999: EGD-compatible daemon for TrueRNG devices
 sys-apps/linux-misc-apps 6.6.15: Misc tools bundled with kernel sources
 sys-apps/opentmpfiles 0.2-r1: A standalone utility to process systemd-style tmpfiles.d files
 sys-firmware/ipw2200-firmware 3.0: Firmware for the Intel PRO/Wireless 2200BG/2915ABG miniPCI, 2225BG PCI adapters
