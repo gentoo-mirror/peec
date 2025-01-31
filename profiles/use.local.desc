@@ -20,6 +20,11 @@ net-firewall/shorewall:ipv4 - Installs everything needed to create a full IPv4 f
 net-firewall/shorewall:ipv6 - Adds the capability to create a full IPv6 firewall (requires net-firewall/shorewall ipv4 USE flag)
 net-firewall/shorewall:lite4 - Installs everything needed to just *run* an IPv4 compiled firewall script created with net-firewall/shorewall ipv4 USE flag
 net-firewall/shorewall:lite6 - Installs everything needed to just *run* an IPv6 compiled firewall script created with net-firewall/shorewall ipv6 USE flag
+net-libs/mbedtls:cmac - Enable block cipher-based message authentication code algorithm
+net-libs/mbedtls:havege - Enable the HAVEGE random generator. Warning: the HAVEGE random generator is not suitable for virtualized environments
+net-libs/mbedtls:programs - Build Mbed TLS programs
+net-voip/umurmur:mbedtls - Use net-libs/mbedtls as TLS provider
+net-voip/umurmur:shm - Enable shared memory support
 sys-apps/linux-misc-apps:usbip - Include USB/IP binaries to replace net-misc/usbip
 sys-fs/eudev:kmod - enable module loading through libkmod
 sys-fs/eudev:rule-generator - install legacy rule generator rules and support scripts - note that the functionality within was dropped from sys-fs/udev as it is not stable in all cases; use at your own risk

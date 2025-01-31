@@ -15,7 +15,9 @@ games-engines/fheroes2 1.0.13: Recreation of HoMM2 game engine
 games-engines/mcarpet2 20250111: recode of Bullfrog's Magic Carpet 2 game
 media-gfx/thpp 20241008: Thermal Processing Panel - a viewer and analyzer of infrared images
 net-firewall/shorewall 5.2.8-r5: A high-level tool for configuring Netfilter
+net-libs/mbedtls 3.6.2-r100: Cryptographic library for embedded systems
 net-misc/iotcpd 1.1: a stdio to tcp redirector daemon
+net-voip/umurmur 0.3.0: Minimalistic Murmur (Mumble server)
 net-wireless/gr-sdrplay3 9999 20240207: GNU Radio OOT module for SDRplay RSP devices - SRDPlay API v3
 net-wireless/sdrplay 3.14.0: SDRplay API/HW driver for all RSPs
 net-wireless/soapy-sdrplay3 9999 20240205: Soapy SDR module for SRDPlay API v3
