@@ -13,6 +13,7 @@ HOMEPAGE="https://www.ti.com/tool/MSP430-GCC-OPENSOURCE"
 SRC_URI="https://dr-download.ti.com/software-development/ide-configuration-compiler-or-debugger/MD-LlCjWuAbzH/${SILLY_URL_VER}/msp430-gcc-${GCC_VER}_linux64.tar.bz2
 https://dr-download.ti.com/software-development/ide-configuration-compiler-or-debugger/MD-LlCjWuAbzH/${SILLY_URL_VER}/msp430-gcc-support-files-${SUPPORT_VER}.zip
 "
+S="${WORKDIR}"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -20,7 +21,6 @@ KEYWORDS="amd64"
 RESTRICT="bindist mirror strip"
 
 BDEPEND="app-arch/unzip"
-S="${WORKDIR}"
 
 QA_PREBUILT="*"
 

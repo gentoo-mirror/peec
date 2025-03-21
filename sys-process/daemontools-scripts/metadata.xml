@@ -9,6 +9,6 @@
 		<flag name="withsamplescripts">add sample init scripts</flag>
 	</use>
 	<upstream>
-		<remote-id type="github">rodan/daemontools-scripts</remote-id>
+		<remote-id type="codeberg">subDIMENSION/daemontools-scripts</remote-id>
 	</upstream>
 </pkgmetadata>

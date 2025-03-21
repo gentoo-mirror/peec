@@ -7,9 +7,9 @@ DESCRIPTION="ssh forced command authenticator"
 HOMEPAGE="https://github.com/11001100/authprogs"
 
 SRC_URI="https://github.com/11001100/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
+LICENSE="BSD"
 KEYWORDS="amd64 arm arm64 x86"
 
-LICENSE="BSD"
 SLOT="0"
 
 RDEPEND="virtual/ssh"

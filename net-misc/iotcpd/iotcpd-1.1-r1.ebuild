@@ -3,10 +3,12 @@
 
 EAPI=7
 
+MY_PN="30dd40f4fb"
+
 DESCRIPTION="a stdio to tcp redirector daemon"
-HOMEPAGE="https://github.com/rodan/iotcpd/"
-SRC_URI="https://github.com/rodan/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
-S="${WORKDIR}/${P}/server"
+HOMEPAGE="https://codeberg.org/subDIMENSION/iotcpd"
+SRC_URI="https://codeberg.org/subDIMENSION/${PN}/archive/${MY_PN}.tar.gz -> ${P}.tar.gz"
+S="${WORKDIR}/${PN}/server"
 
 LICENSE="GPL-3"
 SLOT="0"

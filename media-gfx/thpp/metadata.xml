@@ -6,6 +6,6 @@
 	<name>Petre Rodan</name>
 </maintainer>
 	<upstream>
-		<remote-id type="github">rodan/thpp</remote-id>
+		<remote-id type="codeberg">subDIMENSION/thpp</remote-id>
 	</upstream>
 </pkgmetadata>
