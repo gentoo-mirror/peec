@@ -34,7 +34,7 @@ package | details
 [app-dicts/dicpoli](https://codeberg.org/subDIMENSION/dictionar_poliglot_de_aeronautica) | multilingual aeronautical dictionary compatible with dictd, stardict and kindle (de en es fr it ro) 3759 terms
 [dev-embedded/atlas430](https://codeberg.org/subDIMENSION/atlas430) | library of HAL functions for MSP430 microcontrollers
 [dev-embedded/msp430-gcc-bin](https://www.ti.com/tool/MSP430-GCC-OPENSOURCE) | open source toolchain for MSP430 microcontrollers
-[games-engines/mcarpet2](https://github.com/rodan/magic_carpet_2) | recode of Buffrog's Magic Carpet 2 game now with OpenAL-based directional sounds and support for modern controllers and joysticks
+[games-engines/mcarpet2](https://codeberg.org/rodan/magic_carpet_2) | recode of Buffrog's Magic Carpet 2 game now with OpenAL-based directional sounds and support for modern controllers and joysticks
 [media-gfx/thpp](https://codeberg.org/subDIMENSION/thpp) | thermal processing panel - viewer and analyzer of infrared images compatible with FLIR and IRTIS cameras
 [net-misc/iotcpd](https://codeberg.org/subDIMENSION/iotcpd) | a stdio to tcp redirector daemon
 [sys-apps/cwiticald](https://codeberg.org/subDIMENSION/cwiticald) | entropy gathering daemon for TrueRNG devices

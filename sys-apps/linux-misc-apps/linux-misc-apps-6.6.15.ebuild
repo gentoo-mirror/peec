@@ -11,7 +11,6 @@ HOMEPAGE="https://kernel.org/"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~ppc ~x86"
-IUSE="static-libs tcpd usbip"
 
 MY_PV="${PV/_/-}"
 MY_PV="${MY_PV/-pre/-git}"
@@ -37,6 +36,8 @@ elif [ $(_get_version_component_count) == 4 ]; then
 else
 	LINUX_VER=${PV}
 fi
+
+IUSE="static-libs tcpd usbip"
 
 LINUX_SOURCES=linux-${LINUX_VER}.tar.xz
 SRC_URI="${SRC_URI} https://www.kernel.org/pub/linux/kernel/v6.x/${LINUX_SOURCES}"

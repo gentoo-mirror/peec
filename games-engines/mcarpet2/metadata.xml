@@ -10,6 +10,6 @@
 		<flag name="imgui">enable Dear ImGui interface inside game's framebuffer</flag>
 	</use>
 	<upstream>
-		<remote-id type="github">rodan/magic_carpet_2</remote-id>
+		<remote-id type="codeberg">rodan/magic_carpet_2</remote-id>
 	</upstream>
 </pkgmetadata>

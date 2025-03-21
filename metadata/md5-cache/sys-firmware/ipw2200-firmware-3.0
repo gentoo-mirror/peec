@@ -6,4 +6,4 @@ KEYWORDS=amd64 x86
 LICENSE=ipw2200-fw
 SLOT=0
 SRC_URI=http://distfiles.simplex.ro/ipw2200-fw-3.0.tgz
-_md5_=25d9fe2fee86b62d3a26768ff9be24aa
+_md5_=5277901f730aeb414d1a862292dffd1e

@@ -4,14 +4,13 @@
 EAPI=8
 
 DESCRIPTION="EGD-compatible daemon for TrueRNG devices"
-HOMEPAGE="https://github.com/rodan/cwiticald/"
-EGIT_REPO_URI="git://github.com/rodan/cwiticald.git"
-EGIT_BRANCH="master"
-S="${WORKDIR}/${P}/src"
+HOMEPAGE="https://codeberg.org/subDIMENSION/cwiticald"
+SRC_URI="https://codeberg.org/subDIMENSION/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+S="${WORKDIR}/${PN}/src"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 x86"
 
 DEPEND="x11-misc/makedepend"
 RDEPEND="
@@ -21,6 +20,7 @@ RDEPEND="
 "
 
 src_install() {
+	doman "${S}/../doc/cwiticald.1"
 	exeinto "usr/sbin"
 	doexe cwiticald
 }

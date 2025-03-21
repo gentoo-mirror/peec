@@ -7,6 +7,6 @@
 </maintainer>
 	<longdescription>software that takes PulseView digital signal captures as input and re-plays them on a MSP430FR5994</longdescription>
 	<upstream>
-		<remote-id type="github">rodan/sigdup</remote-id>
+		<remote-id type="codeberg">subDIMENSION/sigdup</remote-id>
 	</upstream>
 </pkgmetadata>

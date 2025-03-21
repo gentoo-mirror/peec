@@ -11,8 +11,9 @@ MY_P="${PN}-${MY_PV}"
 LANGUAGES="de en es fr it ro"
 
 DESCRIPTION="multilingual aeronautical dictionary"
-HOMEPAGE="https://github.com/rodan/dictionar_poliglot_de_aeronautica"
-SRC_URI="https://github.com/rodan/${MY_PN}/archive/${MY_PV}.tar.gz -> ${MY_P}.tar.gz"
+HOMEPAGE="https://codeberg.org/subDIMENSION/dictionar_poliglot_de_aeronautica"
+SRC_URI="https://codeberg.org/subDIMENSION/${MY_PN}/archive/${MY_PV}.tar.gz -> ${MY_P}.tar.gz"
+S="${WORKDIR}"/${MY_PN}/src
 
 LICENSE="CC0-1.0"
 SLOT="0"
@@ -26,7 +27,6 @@ RDEPEND="${DEPEND}"
 REQUIRED_USE=" ( || ( dict stardict ) )
 ( || ( l10n_de l10n_en l10n_es l10n_fr l10n_it l10n_ro ) )
 "
-S="${WORKDIR}/${MY_PN}-${MY_PV}/src"
 
 src_compile() {
 	for lang in ${LANGUAGES}; do

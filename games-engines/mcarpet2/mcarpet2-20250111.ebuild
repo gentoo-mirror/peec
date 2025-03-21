@@ -40,13 +40,14 @@ MY_PV="${PV}"
 MY_P="${PN}-${MY_PV}"
 
 DESCRIPTION="recode of Bullfrog's Magic Carpet 2 game"
-HOMEPAGE="https://github.com/rodan/magic_carpet_2"
-SRC_URI="https://github.com/rodan/${MY_PN}/archive/${MY_PV}.tar.gz -> ${MY_P}.tar.gz
+HOMEPAGE="https://codeberg.org/rodan/magic_carpet_2"
+SRC_URI="https://codeberg.org/rodan/${MY_PN}/archive/${MY_PV}.tar.gz -> ${MY_P}.tar.gz
 	https://github.com/ocornut/${IMGUI_PN}/archive/v${IMGUI_PV}.tar.gz -> ${IMGUI_P}.tar.gz
 	https://github.com/MathieuTurcotte/${FINDFIRST_PN}/archive/${FINDFIRST_PV}.tar.gz -> ${FINDFIRST_P}.tar.gz
 	https://github.com/benhoyt/${INIH_PN}/archive/${INIH_PV}.tar.gz -> ${INIH_P}.tar.gz
 	https://github.com/aminosbh/${SDL2_CMAKE_MOD_PN}/archive/${SDL2_CMAKE_MOD_PV}.tar.gz -> ${SDL2_CMAKE_MOD_P}.tar.gz
 "
+S="${WORKDIR}/${MY_PN}-${MY_PV}" #/src"
 
 LICENSE="MIT"
 SLOT="0"
@@ -70,7 +71,6 @@ DEPEND="media-libs/libglvnd
 	app-cdr/cdrdao
 "
 RDEPEND="${DEPEND}"
-S="${WORKDIR}/${MY_PN}-${MY_PV}" #/src"
 
 src_unpack() {
 	unpack "${MY_P}.tar.gz" || die "Unpacking ${P}.tar.gz failed"

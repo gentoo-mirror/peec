@@ -9,7 +9,6 @@ DESCRIPTION='A high-level tool for configuring Netfilter'
 HOMEPAGE="https://shorewall.org/"
 LICENSE="GPL-2"
 SLOT="0"
-IUSE="doc +init +ipv4 ipv6 lite4 lite6 selinux"
 
 MY_PV=${PV/_rc/-RC}
 MY_PV=${MY_PV/_beta/-Beta}
@@ -78,6 +77,8 @@ SRC_URI="
 	init? ( https://shorewall.org/pub/shorewall/${MY_URL_PREFIX}${MY_MAJOR_RELEASE_NUMBER}/shorewall-${MY_MAJORMINOR_RELEASE_NUMBER}${MY_URL_SUFFIX}/shorewall-init-${MY_PV}.tar.bz2 )
 	doc? ( https://shorewall.org/pub/shorewall/${MY_URL_PREFIX}${MY_MAJOR_RELEASE_NUMBER}/shorewall-${MY_MAJORMINOR_RELEASE_NUMBER}${MY_URL_SUFFIX}/${MY_P_DOCS}.tar.bz2 )
 "
+
+IUSE="doc +init +ipv4 ipv6 lite4 lite6 selinux"
 
 # - Shorewall6 requires Shorewall
 # - Installing Shorewall-init or just the documentation doesn't make any sense,

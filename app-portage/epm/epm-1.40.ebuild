@@ -6,6 +6,7 @@ EAPI=8
 DESCRIPTION="rpm workalike for Gentoo Linux"
 HOMEPAGE="https://github.com/fuzzyray/epm"
 SRC_URI="https://rodan.github.io/distfiles/${P}.tar.gz"
+S="${WORKDIR}"
 
 LICENSE="GPL-2"
 SLOT="0"
@@ -13,7 +14,6 @@ KEYWORDS="amd64 arm arm64 x86"
 
 DEPEND="dev-lang/perl"
 RDEPEND="${DEPEND}"
-S="${WORKDIR}"
 
 src_compile() {
 	pod2man epm > epm.1 || die "pod2man failed"

@@ -6,6 +6,6 @@
 	<name>Petre Rodan</name>
 </maintainer>
 	<upstream>
-		<remote-id type="github">rodan/cwiticald</remote-id>
+		<remote-id type="codeberg">subDIMENSION/cwiticald</remote-id>
 	</upstream>
 </pkgmetadata>

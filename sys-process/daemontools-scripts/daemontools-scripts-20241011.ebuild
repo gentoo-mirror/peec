@@ -6,8 +6,9 @@ EAPI=7
 inherit flag-o-matic toolchain-funcs
 
 DESCRIPTION="gentoo specific daemontools wrapper scripts"
-HOMEPAGE="https://fixme"
-SRC_URI="https://github.com/rodan/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://codeberg.org/subDIMENSION/daemontools-scripts"
+SRC_URI="https://codeberg.org/subDIMENSION/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
+S="${WORKDIR}"/${PN}
 
 LICENSE="GPL-2"
 SLOT="0"

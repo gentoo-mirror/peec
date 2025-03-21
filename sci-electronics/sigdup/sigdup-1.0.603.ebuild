@@ -3,13 +3,14 @@
 
 EAPI=8
 
-MY_PV="${PV}"
+MY_PV="1.0b603"
 #MY_PV="62767181b05a2e6d05d99fba80c0dbeb78d7294c"
 MY_P="${PN}-${MY_PV}"
 
 DESCRIPTION="sigdup - replay PulseView digital signals on the pins of a microcontroller"
-HOMEPAGE="https://github.com/rodan/sigdup"
-SRC_URI="https://github.com/rodan/${PN}/archive/${MY_PV}.tar.gz -> ${MY_P}.tar.gz"
+HOMEPAGE="https://codeberg.org/subDIMENSION/sigdup"
+SRC_URI="https://codeberg.org/subDIMENSION/${PN}/archive/${MY_PV}.tar.gz -> ${MY_P}.tar.gz"
+S=${WORKDIR}/${PN}/software/sigdup
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -18,7 +19,6 @@ IUSE="debug"
 
 DEPEND="dev-libs/libzip"
 RDEPEND="${DEPEND}"
-S=${WORKDIR}/${MY_P}/software
 
 src_prepare() {
 	default
@@ -29,6 +29,6 @@ src_prepare() {
 src_install() {
 	exeinto /usr/bin/
 	doexe "${PN}"
-	doman "../doc/sigdup-firmware.1"
-	doman "../doc/sigdup.1"
+	doman "../../doc/sigdup-firmware.1"
+	doman "../../doc/sigdup.1"
 }

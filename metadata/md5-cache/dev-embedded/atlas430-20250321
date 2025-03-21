@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install
+DESCRIPTION=library of HAL functions for MSP430 microcontrollers
+EAPI=8
+HOMEPAGE=https://codeberg.org/subDIMENSION/atlas430
+KEYWORDS=amd64 x86
+LICENSE=BSD
+RESTRICT=strip
+SLOT=0
+SRC_URI=https://codeberg.org/subDIMENSION/atlas430/archive/5719ae5f2250a05d10ede41f61219f1553d31c4f.tar.gz -> atlas430-5719ae5f2250a05d10ede41f61219f1553d31c4f.tar.gz
+_md5_=1aace84ee24336f0595c3a209f72175f

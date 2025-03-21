@@ -8,4 +8,4 @@ LICENSE=GPL-2
 RDEPEND=dev-lang/perl
 SLOT=0
 SRC_URI=https://rodan.github.io/distfiles/epm-1.40.tar.gz
-_md5_=35e194bc81619c70069ae81d14254032
+_md5_=7f7652480f0f37ca581e7b5d18dc88a3

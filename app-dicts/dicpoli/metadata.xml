@@ -10,6 +10,6 @@
 		<flag name="stardict">dictionary data for stardict</flag>
 	</use>
 	<upstream>
-		<remote-id type="github">rodan/dictionar_poliglot_de_aeronautica</remote-id>
+		<remote-id type="codeberg">subDIMENSION/dictionar_poliglot_de_aeronautica</remote-id>
 	</upstream>
 </pkgmetadata>

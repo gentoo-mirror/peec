@@ -4,8 +4,9 @@
 EAPI=8
 
 DESCRIPTION="the iptables chain manager for impolite IPs"
-HOMEPAGE="https://github.com/rodan/laboule"
-SRC_URI="https://github.com/rodan/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://codeberg.org/subDIMENSION/laboule"
+SRC_URI="https://codeberg.org/subDIMENSION/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
+S="${WORKDIR}"/${PN}
 
 LICENSE="BSD"
 SLOT="0"

@@ -11,6 +11,7 @@ MY_PV_12=$(ver_cut 1-2)
 DESCRIPTION="SDRplay API/HW driver for all RSPs"
 HOMEPAGE="https://www.sdrplay.com"
 SRC_URI="http://www.sdrplay.com/software/SDRplay_RSP_API-Linux-${PV}.run"
+S="${WORKDIR}"
 
 LICENSE="SDRplay"
 SLOT="0"
@@ -23,7 +24,6 @@ DEPEND="virtual/libusb:1
 
 RDEPEND="${DEPEND}"
 
-S="${WORKDIR}"
 
 QA_PREBUILT="usr/lib64/libsdrplay_api.so.${MY_PV_12}
 usr/lib/libsdrplay_api.so.${MY_PV_12}
