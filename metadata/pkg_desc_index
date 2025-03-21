@@ -6,29 +6,28 @@ app-admin/authprogs 0.9.201: ssh forced command authenticator
 app-admin/laboule 20210924: the iptables chain manager for impolite IPs
 app-dicts/dicpoli 20240109: multilingual aeronautical dictionary
 app-portage/epm 1.40: rpm workalike for Gentoo Linux
-dev-embedded/atlas430 20240206: library of HAL functions for MSP430 microcontrollers
+dev-embedded/atlas430 20250321: library of HAL functions for MSP430 microcontrollers
 dev-embedded/msp430-gcc-bin 9.3.1.11: open source toolchain for MSP430 microcontrollers
 dev-games/openscenegraph 3.6.5-r120: Open source high performance 3D graphics toolkit
 dev-python/dtschema 2023.11 2024.11: tools and schema data for Devicetree schema validation
 dev-python/jsonschema 4.17.3: An implementation of JSON-Schema validation for Python
-games-engines/fheroes2 1.0.13: Recreation of HoMM2 game engine
 games-engines/mcarpet2 20250111: recode of Bullfrog's Magic Carpet 2 game
-media-gfx/thpp 20241008: Thermal Processing Panel - a viewer and analyzer of infrared images
+media-gfx/thpp 1.1.3291: Thermal Processing Panel - a viewer and analyzer of infrared images
 net-firewall/shorewall 5.2.8-r5: A high-level tool for configuring Netfilter
 net-libs/mbedtls 3.6.2-r1: Cryptographic library for embedded systems
-net-misc/iotcpd 1.1: a stdio to tcp redirector daemon
+net-misc/iotcpd 1.1-r1: a stdio to tcp redirector daemon
 net-voip/umurmur 0.3.0: Minimalistic Murmur (Mumble server)
 net-wireless/gr-sdrplay3 9999 20240207: GNU Radio OOT module for SDRplay RSP devices - SRDPlay API v3
 net-wireless/sdrplay 3.14.0: SDRplay API/HW driver for all RSPs
 net-wireless/soapy-sdrplay3 9999 20240205: Soapy SDR module for SRDPlay API v3
-sci-electronics/sigdup 20240107: sigdup - replay PulseView digital signals on the pins of a microcontroller
+sci-electronics/sigdup 1.0.603: sigdup - replay PulseView digital signals on the pins of a microcontroller
 sec-keys/openpgp-keys-petrerodan 20250307: OpenPGP keys used by Petre Rodan
-sys-apps/cwiticald 1.3 1.4 9999: EGD-compatible daemon for TrueRNG devices
+sys-apps/cwiticald 1.5: EGD-compatible daemon for TrueRNG devices
 sys-apps/linux-misc-apps 6.6.15: Misc tools bundled with kernel sources
 sys-apps/opentmpfiles 0.2-r1: A standalone utility to process systemd-style tmpfiles.d files
 sys-firmware/ipw2200-firmware 3.0: Firmware for the Intel PRO/Wireless 2200BG/2915ABG miniPCI, 2225BG PCI adapters
 sys-fs/eudev 3.2.11-r4 3.2.12-r1 9999: Linux dynamic and persistent device naming support (aka userspace devfs)
-sys-process/daemontools-scripts 20210924 20241011: gentoo specific daemontools wrapper scripts
+sys-process/daemontools-scripts 20241011: gentoo specific daemontools wrapper scripts
 virtual/libudev 232: Virtual for libudev providers
 virtual/tmpfiles 0: Virtual to select between different tmpfiles.d handlers
 virtual/udev 217: Virtual to select between different udev daemon providers

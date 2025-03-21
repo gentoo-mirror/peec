@@ -1,9 +1,5 @@
 ## Peter's Exquisite Ebuild Collection
 
-> [!WARNING]  
-> this overlay has moved to https://codeberg.org/subDIMENSION/gentoo-overlay
-> see you there
-
 An overlay that contains ebuilds for my open-source projects and a safe heaven for packages that were ruthlessly axed from the main Gentoo portage tree.
 
 ### setup

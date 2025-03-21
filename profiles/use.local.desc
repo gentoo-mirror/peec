@@ -13,7 +13,6 @@ dev-games/openscenegraph:openinventor - Build OpenInventor plugin
 dev-games/openscenegraph:osgapps - Build osg applications
 dev-games/openscenegraph:sdl2 - Use media-libs/libsdl2 additionally to media-libs/libsdl
 dev-games/openscenegraph:xrandr - Enable support for the X xrandr extension
-games-engines/fheroes2:tools - Install development tools like 82m2wav and xmi2midi.
 games-engines/mcarpet2:imgui - enable Dear ImGui interface inside game's framebuffer
 net-firewall/shorewall:init - Adds the capability to place the firewall in a safe state prior to bringing up the network interfaces
 net-firewall/shorewall:ipv4 - Installs everything needed to create a full IPv4 firewall
