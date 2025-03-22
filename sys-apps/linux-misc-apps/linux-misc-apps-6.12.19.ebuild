@@ -8,13 +8,6 @@ inherit autotools flag-o-matic linux-info
 DESCRIPTION="Misc tools bundled with kernel sources"
 HOMEPAGE="https://kernel.org/"
 
-LICENSE="GPL-2"
-SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
-
-MY_PV="${PV/_/-}"
-MY_PV="${MY_PV/-pre/-git}"
-
 LINUX_V=$(ver_cut 1-2)
 
 _get_version_component_count() {
@@ -37,10 +30,16 @@ else
 	LINUX_VER=${PV}
 fi
 
-IUSE="static-libs tcpd usbip"
-
 LINUX_SOURCES=linux-${LINUX_VER}.tar.xz
 SRC_URI="${SRC_URI} https://www.kernel.org/pub/linux/kernel/v6.x/${LINUX_SOURCES}"
+S="${WORKDIR}/linux-${LINUX_VER}"
+
+LICENSE="GPL-2"
+SLOT="0"
+KEYWORDS="~amd64 ~ppc ~x86"
+
+MY_PV="${PV/_/-}"
+MY_PV="${MY_PV/-pre/-git}"
 
 # pmtools also provides turbostat
 # usbip available in seperate package now
@@ -56,19 +55,19 @@ RDEPEND="sys-apps/hwdata
 DEPEND="${RDEPEND}
 		virtual/pkgconfig"
 
-S="${WORKDIR}/linux-${LINUX_VER}"
+IUSE="static-libs tcpd usbip"
 
 # All of these are integrated with the kernel build system,
 # No make install, and ideally build with with the root Makefile
 TARGETS_SIMPLE=(
 	samples/watchdog/watchdog-simple.c
 	tools/accounting/getdelays.c
-	tools/cgroup/cgroup_event_listener.c
 	tools/laptop/freefall/freefall.c
 	tools/testing/selftests/net/timestamping.c
 	tools/mm/slabinfo.c
 	usr/gen_init_cpio.c
 	# Broken:
+	#tools/cgroup/cgroup_event_listener.c
 	#tools/lguest/lguest.c # fails to compile
 	#tools/vm/page-types.c # page-types.c:(.text+0xe2b):
 	#  undefined reference to `debugfs__mount', not defined anywhere
@@ -123,8 +122,6 @@ src_prepare() {
 		-e '/^nosy-dump.*CFLAGS/d' \
 		-e '/^nosy-dump.*CPPFLAGS/s,CPPFLAGS =,CPPFLAGS +=,g' \
 		"${S}"/tools/firewire/Makefile
-
-	eapply "${FILESDIR}/iio_utils.patch"
 
 	eapply_user
 }
