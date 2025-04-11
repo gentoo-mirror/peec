@@ -21,6 +21,7 @@ net-wireless/gr-sdrplay3 9999 20240207: GNU Radio OOT module for SDRplay RSP dev
 net-wireless/sdrplay 3.14.0: SDRplay API/HW driver for all RSPs
 net-wireless/soapy-sdrplay3 9999 20240205: Soapy SDR module for SRDPlay API v3
 sci-electronics/sigdup 1.0.603: sigdup - replay PulseView digital signals on the pins of a microcontroller
+sci-electronics/sigrok-annotate 1.0.530: decode and annotate a sigrok signal capture
 sec-keys/openpgp-keys-petrerodan 20250307: OpenPGP keys used by Petre Rodan
 sys-apps/cwiticald 1.5: EGD-compatible daemon for TrueRNG devices
 sys-apps/linux-misc-apps 6.12.19: Misc tools bundled with kernel sources

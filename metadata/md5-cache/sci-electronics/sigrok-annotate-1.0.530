@@ -1,0 +1,12 @@
+DEFINED_PHASES=install prepare
+DEPEND=dev-libs/glib
+DESCRIPTION=decode and annotate a sigrok signal capture
+EAPI=8
+HOMEPAGE=https://codeberg.org/subDIMENSION/sigrok-annotate
+IUSE=debug
+KEYWORDS=amd64 x86
+LICENSE=GPL-3
+RDEPEND=dev-libs/glib
+SLOT=0
+SRC_URI=https://codeberg.org/subDIMENSION/sigrok-annotate/archive/1.0b530.tar.gz -> sigrok-annotate-1.0b530.tar.gz
+_md5_=9cd2a578d8121135086d4bd80cce01b9
