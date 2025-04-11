@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<maintainer type="person">
+	<email>petre.rodan@subdimension.ro</email>
+	<name>Petre Rodan</name>
+</maintainer>
+	<longdescription>decode and annotate sigrok output</longdescription>
+	<upstream>
+		<remote-id type="codeberg">subDIMENSION/sigrok-annotate</remote-id>
+	</upstream>
+</pkgmetadata>

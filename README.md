@@ -35,6 +35,7 @@ package | details
 [net-misc/iotcpd](https://codeberg.org/subDIMENSION/iotcpd) | a stdio to tcp redirector daemon
 [sys-apps/cwiticald](https://codeberg.org/subDIMENSION/cwiticald) | entropy gathering daemon for TrueRNG devices
 [sci-electronics/sigdup](https://codeberg.org/subDIMENSION/sigdup) | software that takes PulseView digital signal captures as input and re-plays them on the pins of a MSP430FR5994 (up to 8 channels)
+[sci-electronics/sigrok-annotate](https://codeberg.org/subDIMENSION/sigrok-annotate) | decode and annotate sigrok output
 [sys-process/daemontools-scripts](https://codeberg.org/subDIMENSION/daemontools-scripts) | Gentoo specific daemontools wrapper scripts
 [app-admin/authprogs](https://github.com/11001100/authprogs) | ssh forced command wrapper
 [app-portage/epm](https://github.com/fuzzyray/epm) | rpm workalike for Gentoo Linux
