@@ -47,7 +47,7 @@ SRC_URI="https://codeberg.org/rodan/${MY_PN}/archive/${MY_PV}.tar.gz -> ${MY_P}.
 	https://github.com/benhoyt/${INIH_PN}/archive/${INIH_PV}.tar.gz -> ${INIH_P}.tar.gz
 	https://github.com/aminosbh/${SDL2_CMAKE_MOD_PN}/archive/${SDL2_CMAKE_MOD_PV}.tar.gz -> ${SDL2_CMAKE_MOD_P}.tar.gz
 "
-S="${WORKDIR}/${MY_PN}-${MY_PV}" #/src"
+S="${WORKDIR}/${MY_PN}" #/src"
 
 LICENSE="MIT"
 SLOT="0"
@@ -127,7 +127,7 @@ src_install() {
 	newins "${S}/assets/config_xbox.ini" config_xbox.ini
 
 	exeinto /usr/share/mcarpet2
-	doexe "${WORKDIR}/${MY_PN}-${MY_PV}_build/src/remc2"
+	doexe "${WORKDIR}/${MY_PN}_build/src/remc2"
 
 	insinto /usr/share/mcarpet2/font
 	dodir /usr/share/mcarpet2/font
