@@ -11,5 +11,5 @@ LICENSE=SDRplay
 RDEPEND=virtual/libusb:1 virtual/udev systemd? ( sys-apps/systemd )
 SLOT=0
 SRC_URI=http://www.sdrplay.com/software/SDRplay_RSP_API-Linux-3.14.0.run
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	unpacker	3b4ee72d1e2e0374fd8cd3eddfa00627	udev	f3d9a4376ebd22131726a68e1a0a058f	systemd	54bd206bb5c4efac6ae28b6b006713b0
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	unpacker	3b4ee72d1e2e0374fd8cd3eddfa00627	udev	f3d9a4376ebd22131726a68e1a0a058f	systemd	a964c0cbe818b5729da1dbfcee5be861
 _md5_=dfcd195d9e6de0f5a0bff8d06606f68b
