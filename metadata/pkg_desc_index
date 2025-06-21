@@ -8,7 +8,6 @@ app-dicts/dicpoli 20240109: multilingual aeronautical dictionary
 app-portage/epm 1.40: rpm workalike for Gentoo Linux
 dev-embedded/atlas430 20250321: library of HAL functions for MSP430 microcontrollers
 dev-embedded/msp430-gcc-bin 9.3.1.11: open source toolchain for MSP430 microcontrollers
-dev-games/openscenegraph 3.6.5-r120: Open source high performance 3D graphics toolkit
 dev-python/dtschema 2023.11 2024.11: tools and schema data for Devicetree schema validation
 dev-python/jsonschema 4.17.3: An implementation of JSON-Schema validation for Python
 games-engines/mcarpet2 20250411: recode of Bullfrog's Magic Carpet 2 game
