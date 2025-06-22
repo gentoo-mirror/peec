@@ -7,4 +7,4 @@ KEYWORDS=amd64 x86
 LICENSE=GPL-3
 SLOT=0
 SRC_URI=https://codeberg.org/subDIMENSION/iotcpd/archive/30dd40f4fb.tar.gz -> iotcpd-1.1.tar.gz
-_md5_=592873d3dd2ecacc1cf83816adcb0af3
+_md5_=69f8b34ee5c31a18a21bcbc0a341ec55

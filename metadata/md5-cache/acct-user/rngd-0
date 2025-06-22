@@ -6,4 +6,4 @@ KEYWORDS=amd64 arm arm64 x86
 RDEPEND=acct-group/rngd
 SLOT=0
 _eclasses_=user-info	563da40a1a20ea1e55bbf4d149fc190d	acct-user	807e7b6a195e8f149fbe98cfe84754e3
-_md5_=ede4fa3fadac0862d23c6f12298ca72f
+_md5_=1b9c6fc18ac0f5ded747a12fa9e44dc5

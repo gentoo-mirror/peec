@@ -11,4 +11,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://codeberg.org/subDIMENSION/daemontools-scripts/archive/20241011.tar.gz -> daemontools-scripts-20241011.tar.gz
 _eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a
-_md5_=02ce40b88287d57ff6bf08220c6ad186
+_md5_=b204a643b8aca4005526e73a1840f865
