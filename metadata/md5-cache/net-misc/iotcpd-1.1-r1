@@ -1,7 +1,7 @@
 DEFINED_PHASES=install
 DEPEND=x11-misc/makedepend
 DESCRIPTION=a stdio to tcp redirector daemon
-EAPI=7
+EAPI=8
 HOMEPAGE=https://codeberg.org/subDIMENSION/iotcpd
 KEYWORDS=amd64 x86
 LICENSE=GPL-3

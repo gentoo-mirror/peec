@@ -1,6 +1,6 @@
 DEFINED_PHASES=compile install setup
 DESCRIPTION=gentoo specific daemontools wrapper scripts
-EAPI=7
+EAPI=8
 HOMEPAGE=https://codeberg.org/subDIMENSION/daemontools-scripts
 INHERIT=flag-o-matic toolchain-funcs
 IUSE=static selinux withsamplescripts
