@@ -2,7 +2,7 @@ BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20250306 || ( >=dev-build/
 DEFINED_PHASES=configure install postinst prepare pretend
 DEPEND=>=dev-libs/protobuf-c-1.0.0_rc2:= dev-libs/libconfig:= gnutls? ( dev-libs/nettle:= >=net-libs/gnutls-3.0.0:= ) !gnutls? ( mbedtls? ( >=net-libs/mbedtls-3.1.0:= ) !mbedtls? ( dev-libs/openssl:0= ) )
 DESCRIPTION=Minimalistic Murmur (Mumble server)
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/umurmur/umurmur
 INHERIT=autotools systemd readme.gentoo-r1
 IUSE=gnutls mbedtls shm

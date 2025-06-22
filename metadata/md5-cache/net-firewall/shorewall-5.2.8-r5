@@ -1,7 +1,7 @@
 BDEPEND=virtual/pkgconfig
 DEFINED_PHASES=compile configure install postinst prepare pretend setup
 DESCRIPTION=A high-level tool for configuring Netfilter
-EAPI=7
+EAPI=8
 HOMEPAGE=https://shorewall.org/
 INHERIT=linux-info prefix systemd
 IUSE=doc +init +ipv4 ipv6 lite4 lite6 selinux
