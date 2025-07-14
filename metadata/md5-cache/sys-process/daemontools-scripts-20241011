@@ -10,5 +10,5 @@ RDEPEND=selinux? ( sys-apps/policycoreutils )
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://codeberg.org/subDIMENSION/daemontools-scripts/archive/20241011.tar.gz -> daemontools-scripts-20241011.tar.gz
-_eclasses_=toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772	flag-o-matic	a7afe42e95fb46ce9691605acfb24672
+_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672
 _md5_=b204a643b8aca4005526e73a1840f865
