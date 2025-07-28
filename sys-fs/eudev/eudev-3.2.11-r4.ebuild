@@ -180,6 +180,7 @@ multilib_src_install() {
 	else
 		emake -C src/libudev DESTDIR="${D}" install
 	fi
+	rm -f "${D}/sbin/udevadm"
 }
 
 multilib_src_install_all() {
